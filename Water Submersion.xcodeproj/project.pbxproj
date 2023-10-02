@@ -1,0 +1,562 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		41439E012ACAB6E1000FDA5B /* Water Submersion Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 41439E002ACAB6E1000FDA5B /* Water Submersion Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		41439E062ACAB6E1000FDA5B /* Water_SubmersionApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41439E052ACAB6E1000FDA5B /* Water_SubmersionApp.swift */; };
+		41439E082ACAB6E1000FDA5B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41439E072ACAB6E1000FDA5B /* ContentView.swift */; };
+		41439E0A2ACAB6E3000FDA5B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 41439E092ACAB6E3000FDA5B /* Assets.xcassets */; };
+		41439E0D2ACAB6E3000FDA5B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 41439E0C2ACAB6E3000FDA5B /* Preview Assets.xcassets */; };
+		41439E1D2ACAB7F0000FDA5B /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41439E1C2ACAB7F0000FDA5B /* Logger.swift */; };
+		41439E1F2ACAB807000FDA5B /* WaterSubmersionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41439E1E2ACAB807000FDA5B /* WaterSubmersionManager.swift */; };
+		41439E212ACAB936000FDA5B /* CMWaterSubmersionEvent+State.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41439E202ACAB936000FDA5B /* CMWaterSubmersionEvent+State.swift */; };
+		41439E232ACAB9C1000FDA5B /* WorkoutManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41439E222ACAB9C1000FDA5B /* WorkoutManager.swift */; };
+		41439E252ACABB25000FDA5B /* HKUnit+heartRateUnit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41439E242ACABB25000FDA5B /* HKUnit+heartRateUnit.swift */; };
+		41439E282ACABEB0000FDA5B /* ElapsedTimeFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41439E272ACABEB0000FDA5B /* ElapsedTimeFormatter.swift */; };
+		41439E2A2ACABF48000FDA5B /* ElapsedTimeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41439E292ACABF48000FDA5B /* ElapsedTimeView.swift */; };
+		41439E2D2ACABFE6000FDA5B /* MatricInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41439E2C2ACABFE6000FDA5B /* MatricInfoView.swift */; };
+		41439E2F2ACAC08F000FDA5B /* MetricsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41439E2E2ACAC08F000FDA5B /* MetricsView.swift */; };
+		41439E332ACAC9BF000FDA5B /* Double+string+maximumFractionDigits.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41439E322ACAC9BF000FDA5B /* Double+string+maximumFractionDigits.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		41439E022ACAB6E1000FDA5B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 41439DF42ACAB6E1000FDA5B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 41439DFF2ACAB6E1000FDA5B;
+			remoteInfo = "Water Submersion Watch App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		41439E132ACAB6E3000FDA5B /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				41439E012ACAB6E1000FDA5B /* Water Submersion Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		41439DFA2ACAB6E1000FDA5B /* Water Submersion.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Water Submersion.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		41439E002ACAB6E1000FDA5B /* Water Submersion Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Water Submersion Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		41439E052ACAB6E1000FDA5B /* Water_SubmersionApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Water_SubmersionApp.swift; sourceTree = "<group>"; };
+		41439E072ACAB6E1000FDA5B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		41439E092ACAB6E3000FDA5B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		41439E0C2ACAB6E3000FDA5B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		41439E1C2ACAB7F0000FDA5B /* Logger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Logger.swift; sourceTree = "<group>"; };
+		41439E1E2ACAB807000FDA5B /* WaterSubmersionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaterSubmersionManager.swift; sourceTree = "<group>"; };
+		41439E202ACAB936000FDA5B /* CMWaterSubmersionEvent+State.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CMWaterSubmersionEvent+State.swift"; sourceTree = "<group>"; };
+		41439E222ACAB9C1000FDA5B /* WorkoutManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutManager.swift; sourceTree = "<group>"; };
+		41439E242ACABB25000FDA5B /* HKUnit+heartRateUnit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HKUnit+heartRateUnit.swift"; sourceTree = "<group>"; };
+		41439E272ACABEB0000FDA5B /* ElapsedTimeFormatter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ElapsedTimeFormatter.swift; sourceTree = "<group>"; };
+		41439E292ACABF48000FDA5B /* ElapsedTimeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ElapsedTimeView.swift; sourceTree = "<group>"; };
+		41439E2C2ACABFE6000FDA5B /* MatricInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatricInfoView.swift; sourceTree = "<group>"; };
+		41439E2E2ACAC08F000FDA5B /* MetricsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetricsView.swift; sourceTree = "<group>"; };
+		41439E302ACAC6A5000FDA5B /* Water Submersion Watch App.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Water Submersion Watch App.entitlements"; sourceTree = "<group>"; };
+		41439E312ACAC6B0000FDA5B /* Water-Submersion-Watch-App-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Water-Submersion-Watch-App-Info.plist"; sourceTree = SOURCE_ROOT; };
+		41439E322ACAC9BF000FDA5B /* Double+string+maximumFractionDigits.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Double+string+maximumFractionDigits.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		41439DFD2ACAB6E1000FDA5B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		41439DF32ACAB6E1000FDA5B = {
+			isa = PBXGroup;
+			children = (
+				41439E042ACAB6E1000FDA5B /* Water Submersion Watch App */,
+				41439DFB2ACAB6E1000FDA5B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		41439DFB2ACAB6E1000FDA5B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				41439DFA2ACAB6E1000FDA5B /* Water Submersion.app */,
+				41439E002ACAB6E1000FDA5B /* Water Submersion Watch App.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		41439E042ACAB6E1000FDA5B /* Water Submersion Watch App */ = {
+			isa = PBXGroup;
+			children = (
+				41439E312ACAC6B0000FDA5B /* Water-Submersion-Watch-App-Info.plist */,
+				41439E302ACAC6A5000FDA5B /* Water Submersion Watch App.entitlements */,
+				41439E172ACAB79A000FDA5B /* App */,
+				41439E1B2ACAB7D8000FDA5B /* Extentions */,
+				41439E1A2ACAB7BE000FDA5B /* View Models */,
+				41439E182ACAB7A0000FDA5B /* Views */,
+				41439E262ACABEA4000FDA5B /* Utilities */,
+				41439E192ACAB7A3000FDA5B /* Resources */,
+				41439E0B2ACAB6E3000FDA5B /* Preview Content */,
+			);
+			path = "Water Submersion Watch App";
+			sourceTree = "<group>";
+		};
+		41439E0B2ACAB6E3000FDA5B /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				41439E0C2ACAB6E3000FDA5B /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		41439E172ACAB79A000FDA5B /* App */ = {
+			isa = PBXGroup;
+			children = (
+				41439E052ACAB6E1000FDA5B /* Water_SubmersionApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		41439E182ACAB7A0000FDA5B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				41439E2B2ACABF7E000FDA5B /* Components */,
+				41439E2E2ACAC08F000FDA5B /* MetricsView.swift */,
+				41439E072ACAB6E1000FDA5B /* ContentView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		41439E192ACAB7A3000FDA5B /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				41439E092ACAB6E3000FDA5B /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		41439E1A2ACAB7BE000FDA5B /* View Models */ = {
+			isa = PBXGroup;
+			children = (
+				41439E1E2ACAB807000FDA5B /* WaterSubmersionManager.swift */,
+				41439E222ACAB9C1000FDA5B /* WorkoutManager.swift */,
+			);
+			path = "View Models";
+			sourceTree = "<group>";
+		};
+		41439E1B2ACAB7D8000FDA5B /* Extentions */ = {
+			isa = PBXGroup;
+			children = (
+				41439E1C2ACAB7F0000FDA5B /* Logger.swift */,
+				41439E242ACABB25000FDA5B /* HKUnit+heartRateUnit.swift */,
+				41439E202ACAB936000FDA5B /* CMWaterSubmersionEvent+State.swift */,
+				41439E322ACAC9BF000FDA5B /* Double+string+maximumFractionDigits.swift */,
+			);
+			path = Extentions;
+			sourceTree = "<group>";
+		};
+		41439E262ACABEA4000FDA5B /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				41439E272ACABEB0000FDA5B /* ElapsedTimeFormatter.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		41439E2B2ACABF7E000FDA5B /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				41439E292ACABF48000FDA5B /* ElapsedTimeView.swift */,
+				41439E2C2ACABFE6000FDA5B /* MatricInfoView.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		41439DF92ACAB6E1000FDA5B /* Water Submersion */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 41439E142ACAB6E3000FDA5B /* Build configuration list for PBXNativeTarget "Water Submersion" */;
+			buildPhases = (
+				41439DF82ACAB6E1000FDA5B /* Resources */,
+				41439E132ACAB6E3000FDA5B /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				41439E032ACAB6E1000FDA5B /* PBXTargetDependency */,
+			);
+			name = "Water Submersion";
+			productName = "Water Submersion";
+			productReference = 41439DFA2ACAB6E1000FDA5B /* Water Submersion.app */;
+			productType = "com.apple.product-type.application.watchapp2-container";
+		};
+		41439DFF2ACAB6E1000FDA5B /* Water Submersion Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 41439E102ACAB6E3000FDA5B /* Build configuration list for PBXNativeTarget "Water Submersion Watch App" */;
+			buildPhases = (
+				41439DFC2ACAB6E1000FDA5B /* Sources */,
+				41439DFD2ACAB6E1000FDA5B /* Frameworks */,
+				41439DFE2ACAB6E1000FDA5B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Water Submersion Watch App";
+			productName = "Water Submersion Watch App";
+			productReference = 41439E002ACAB6E1000FDA5B /* Water Submersion Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		41439DF42ACAB6E1000FDA5B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					41439DF92ACAB6E1000FDA5B = {
+						CreatedOnToolsVersion = 15.0;
+					};
+					41439DFF2ACAB6E1000FDA5B = {
+						CreatedOnToolsVersion = 15.0;
+					};
+				};
+			};
+			buildConfigurationList = 41439DF72ACAB6E1000FDA5B /* Build configuration list for PBXProject "Water Submersion" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 41439DF32ACAB6E1000FDA5B;
+			productRefGroup = 41439DFB2ACAB6E1000FDA5B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				41439DF92ACAB6E1000FDA5B /* Water Submersion */,
+				41439DFF2ACAB6E1000FDA5B /* Water Submersion Watch App */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		41439DF82ACAB6E1000FDA5B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		41439DFE2ACAB6E1000FDA5B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41439E0D2ACAB6E3000FDA5B /* Preview Assets.xcassets in Resources */,
+				41439E0A2ACAB6E3000FDA5B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		41439DFC2ACAB6E1000FDA5B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41439E212ACAB936000FDA5B /* CMWaterSubmersionEvent+State.swift in Sources */,
+				41439E2F2ACAC08F000FDA5B /* MetricsView.swift in Sources */,
+				41439E1F2ACAB807000FDA5B /* WaterSubmersionManager.swift in Sources */,
+				41439E082ACAB6E1000FDA5B /* ContentView.swift in Sources */,
+				41439E1D2ACAB7F0000FDA5B /* Logger.swift in Sources */,
+				41439E062ACAB6E1000FDA5B /* Water_SubmersionApp.swift in Sources */,
+				41439E252ACABB25000FDA5B /* HKUnit+heartRateUnit.swift in Sources */,
+				41439E332ACAC9BF000FDA5B /* Double+string+maximumFractionDigits.swift in Sources */,
+				41439E2D2ACABFE6000FDA5B /* MatricInfoView.swift in Sources */,
+				41439E282ACABEB0000FDA5B /* ElapsedTimeFormatter.swift in Sources */,
+				41439E2A2ACABF48000FDA5B /* ElapsedTimeView.swift in Sources */,
+				41439E232ACAB9C1000FDA5B /* WorkoutManager.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		41439E032ACAB6E1000FDA5B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 41439DFF2ACAB6E1000FDA5B /* Water Submersion Watch App */;
+			targetProxy = 41439E022ACAB6E1000FDA5B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		41439E0E2ACAB6E3000FDA5B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				WATCHOS_DEPLOYMENT_TARGET = 9.0;
+			};
+			name = Debug;
+		};
+		41439E0F2ACAB6E3000FDA5B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				WATCHOS_DEPLOYMENT_TARGET = 9.0;
+			};
+			name = Release;
+		};
+		41439E112ACAB6E3000FDA5B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Water Submersion Watch App/Water Submersion Watch App.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Water Submersion Watch App/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Water-Submersion-Watch-App-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Water Submersion";
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "Your workout related data will be used to display your saved workouts in MyWorkouts.";
+				INFOPLIST_KEY_NSHealthUpdateUsageDescription = "Workouts tracked by MyWorkouts on Apple Watch will be saved to HealthKit.";
+				INFOPLIST_KEY_NSMotionUsageDescription = "Dive Sample code for measuning water temprature and pressure";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.swiftui.Water-Submersion.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 9.0;
+			};
+			name = Debug;
+		};
+		41439E122ACAB6E3000FDA5B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Water Submersion Watch App/Water Submersion Watch App.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Water Submersion Watch App/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Water-Submersion-Watch-App-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Water Submersion";
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "Your workout related data will be used to display your saved workouts in MyWorkouts.";
+				INFOPLIST_KEY_NSHealthUpdateUsageDescription = "Workouts tracked by MyWorkouts on Apple Watch will be saved to HealthKit.";
+				INFOPLIST_KEY_NSMotionUsageDescription = "Dive Sample code for measuning water temprature and pressure";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.swiftui.Water-Submersion.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 9.0;
+			};
+			name = Release;
+		};
+		41439E152ACAB6E3000FDA5B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				INFOPLIST_KEY_CFBundleDisplayName = "Water Submersion";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.swiftui.Water-Submersion";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		41439E162ACAB6E3000FDA5B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				INFOPLIST_KEY_CFBundleDisplayName = "Water Submersion";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.swiftui.Water-Submersion";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		41439DF72ACAB6E1000FDA5B /* Build configuration list for PBXProject "Water Submersion" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				41439E0E2ACAB6E3000FDA5B /* Debug */,
+				41439E0F2ACAB6E3000FDA5B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		41439E102ACAB6E3000FDA5B /* Build configuration list for PBXNativeTarget "Water Submersion Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				41439E112ACAB6E3000FDA5B /* Debug */,
+				41439E122ACAB6E3000FDA5B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		41439E142ACAB6E3000FDA5B /* Build configuration list for PBXNativeTarget "Water Submersion" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				41439E152ACAB6E3000FDA5B /* Debug */,
+				41439E162ACAB6E3000FDA5B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 41439DF42ACAB6E1000FDA5B /* Project object */;
+}
